@@ -13,7 +13,6 @@
 #define MSG_SLOT_CHANNEL  _IOW(MAJOR_NUM, 0, unsigned int)
 
 #define DEVICE_RANGE_NAME "char_dev"
-//#define BUF_LEN 80
 #define BUF_LEN 128
 #define DEVICE_FILE_NAME "simple_char_dev"
 #define SUCCESS 0
