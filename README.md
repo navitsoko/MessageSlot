@@ -1,2 +1,2 @@
 # MessageSlot
-Message Slot Kernel Module in Linux.
+Message Slot Kernel Module on Linux.
