@@ -42,7 +42,7 @@ int main(int argc, char *argv[]){
         fprintf(stderr, "Error in close %s\n", strerror(errno));
         exit(1);
     }
-    //fprintf("%s",buffer);
+   
     if (write(1, buffer, res) != res) {
         fprintf(stderr, "Error in write %s\n", strerror(errno));
         exit(1);
