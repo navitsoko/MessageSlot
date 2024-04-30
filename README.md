@@ -1,5 +1,5 @@
 # MessageSlot
-Message Slot Kernel Module on Linux.
+Message Slot in Kernel Module on Linux.
 
 Implementation of a kernel module that provides a new IPC mechanism,
 called a message slot. A message slot is a character device file through which processes communicate.
