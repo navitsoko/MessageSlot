@@ -14,14 +14,14 @@ messages on the channel.
 A message channel preserves a message until it
 is overwritten, so the same message can be read multiple times.
 
-# Description
+## Description
 1. message_slot: A kernel module implementing the message slot IPC mechanism.
 2. message_sender: A user space program to send a message.
 3. message_reader: A user space program to read a message.
    
-# Compile 
+## Compile 
 Compile with the following command:
 
-gcc -O3 -Wall -std=c11 message_sender.c (or message_reader.c)
+`gcc -O3 -Wall -std=c11 message_sender.c` (or message_reader.c)
 
 
